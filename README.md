@@ -18,10 +18,10 @@ To run the simulation and obtain an estimate of pi, create an instance of the Mo
 
 Example usage:
 
-python
-
+```python
 sim = MonteCarloSimulation(1000000)
 pi = sim.run(plot=True)
 print(f"pi: {pi}")
+```
 
 This generates 1 million random points and plots the first 1000 points that fall within the circle. The final estimate of pi is printed to the console.
